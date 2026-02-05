@@ -1,7 +1,7 @@
 {% set python_min = "3.12" %}
 
 {% set name = "pycalceff" %}
-{% set version = "1.0.1" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pycalceff-{{ version }}.tar.gz
-  sha256: 81eb456481147bee1dfdb5f2a818b0169fa18f986071c5dc6556a294d24b74da
+  sha256: 9288cc05180756f14bd43ddc0d56c20fe76d22910c81f005503ed9b89276d6c5
 
 build:
   entry_points:
